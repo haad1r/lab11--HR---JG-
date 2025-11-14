@@ -7,24 +7,30 @@ One function per operation, in order.
 
 import math
 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        raise
+
 def add(a, b):
-    a + b
+    return a + b
 
 def subtract(a, b):
-    a - b
+    return a - b
 
 def multiply(a, b):
-    a * b
+    return a * b
 
 def divide(a, b):
     try:
-        b / a
+        return b / a
     except ZeroDivisionError:
         raise# raise ZeroDivisionError if a == 0
 
 def logarithm(a, b):
     try:
-        math.log(a,b)
+        return math.log(a,b)
     except ValueError: # use math library/raise ValueError
         raise
 
