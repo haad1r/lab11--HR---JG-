@@ -1,4 +1,6 @@
 # https://github.com/haad1r/lab11--HR---JG-
+# Partner 1: Haadi Rattansi
+# Partner 2: Juan Garcia
 
 import math
 
