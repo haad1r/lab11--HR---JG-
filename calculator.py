@@ -20,7 +20,7 @@ def add(a, b):
     return a+b
 
 
-def sub(a, b):
+def subtract(a, b):
     return a-b
 
 
@@ -34,7 +34,7 @@ def div(a, b):
     return b/a
 
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or a == 1:
         raise ValueError("Error: Base a must be positibe but not 1.")
     if b <= 0:
